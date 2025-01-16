@@ -40,3 +40,15 @@ GET http://localhost:7071/api/weather/Recife
 
 
 
+🚀 Deploy no Azure
+Crie um aplicativo de função no Azure:
+
+az functionapp create --resource-group [RESOURCE_GROUP] --consumption-plan-location [LOCATION] --runtime dotnet --name [APP_NAME] --storage-account [STORAGE_ACCOUNT]
+
+Publique o projeto:
+
+func azure functionapp publish [APP_NAME]
+
+
+
+
