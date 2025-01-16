@@ -50,5 +50,12 @@ Publique o projeto:
 func azure functionapp publish [APP_NAME]
 
 
+🧑‍💻 Tecnologias Usadas
+Azure Functions
+C#
+OpenWeatherMap API
+📝 Licença
+Este projeto está sob a licença MIT.
+
 
 
